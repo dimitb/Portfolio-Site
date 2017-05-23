@@ -8,4 +8,4 @@ As this is an HTML program, it will display on all browsers, though not all item
 
 Once downloaded, open the "portfolio-site.html" file and a new browser tab or window will open displaying the site in your browser.
 
-Enjoy
+Enjoy!
