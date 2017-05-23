@@ -1,6 +1,6 @@
 # Portfolio-Site
 
-This Portfolio Website is the second project in the Udacity Full-Stack Nanodegree program that displays a simple website coded and run through HTML & CSS. The site shows my latest or featured work below a large responsive hero image displaying my ninja theme.
+This Portfolio Website is the second project in the Udacity Full-Stack Nanodegree program that displays a simple website coded and run through HTML & CSS. The site shows my latest or featured work below a large responsive hero image displaying the ninja theme of the site.
 
 # Getting Started
 
