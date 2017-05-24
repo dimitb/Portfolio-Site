@@ -2,15 +2,15 @@
 
 /* fontelico icon font */
 [class*="fontelico-"]:before {
-  font-family: 'fontelico', sans-serif;
+  font-family: "fontelico", sans-serif;
   font-size: 125px;
   color: #5a5858;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #5a5858;
     font-weight: 300;
+    color: #5a5858;
 }
 
 p {
@@ -25,31 +25,48 @@ a:hover {
     color: #8d0c0c;
 }
 
-h4 {
-    font-family: 'Merriweather', serif;
-    color: #5a5858;
-    font-size: 28px;
-    padding-top: 5px;
-    margin-bottom: -5px;
-}
-
-hr {
-    border: 1.5px solid #8d0c0c;
-}
-
 h1.clear {
     clear: right;
 }
 
-#gradient-gray {
-    margin-top: -30px;
-    height: 115px;
-    width: 100%;
+h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: -10px;
+}
+
+h4 {
+    color: #5a5858;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+#gradient-gray { /* Gradient for footer section */
     background: #5a5858; /* Solid color for browsers that don't support gradients */
     background: -webkit-linear-gradient(left top, #5a5858, #d9d8d8);
     background: -o-linear-gradient(bottom right, #5a5858, #d9d8d8);
     background: -moz-linear-gradient(bottom right, #5a5858, #d9d8d8);
     background: linear-gradient(to bottom right, #5a5858, #d9d8d8);
+    height: 125px;
+    margin-top: -10px;
+    max-width: 100%;
+}
+
+#featured-work { /* Featured Work section of page */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#main { /* Main section of page */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .text-red {
@@ -75,7 +92,7 @@ h1.clear {
 .title-medium {
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: -10px;
+    margin-bottom: 0;
 }
 
 .title-small {
@@ -88,26 +105,42 @@ h1.clear {
 }
 
 .hero-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-top: -5px;
-    padding-bottom: 20px;
     border-bottom: 5px;
+    display: block;
+    height: auto;
+    margin-top: 10px;
+    max-width: 100%;
+    padding-bottom: 20px;
 }
 
 .title-img-responsive {
     display: block;
-    max-width: 100%;
     height: auto;
+    margin-bottom: 15px;
+    max-width: 100%;
 }
 
 .gradient-col-md-12 {
-    position: relative;
     min-height: 100px;
+    position: relative;
     padding: 0;
 }
 
+.hr-rule-bottom {
+    border-bottom: 3px solid #8d0c0c;
+    margin-bottom: 15px;
+}
+
+.hr-rule-hero {
+    border-top: 3px solid #8d0c0c;
+    padding: 10px;
+}
+
+.hr-rule-top {
+    border-top: 3px solid #8d0c0c;
+}
+
+/* Media queries for customized breakpoints */
 @media screen and (max-width: 990px) {
     .title-img-responsive {
         float: right;
@@ -133,16 +166,16 @@ h1.clear {
         font-size: 16px;
     }
     [class*="fontelico-"]:before {
+        color: #5a5858;
         font-family: 'fontelico', sans-serif;
         font-size: 100px;
-        color: #5a5858;
     }
 }
 
 @media screen and (max-width: 300px) {
     [class*="fontelico-"]:before {
+        color: #5a5858;
         font-family: 'fontelico', sans-serif;
         font-size: 75px;
-        color: #5a5858;
     }
 }

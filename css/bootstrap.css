@@ -665,14 +665,32 @@ address {
   .container {
     width: 750px;
   }
+  #featured-work {
+    width: 750px;
+  }
+  #main {
+    width: 750px;
+  }
 }
 @media (min-width: 990px) {
   .container {
     width: 970px;
   }
+  #featured-work {
+    width: 970px;
+  }
+  #main {
+    width: 970px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
+    width: 1175px;
+  }
+  #featured-work {
+    width: 1175px;
+  }
+  #main {
     width: 1175px;
   }
 }
